@@ -113,10 +113,16 @@
           </p>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="#about" class="btn-get-started">Get Started</a>
-            
-            
-           
+            <!-- <a href="#" class="cd-main-nav__item cd-main-nav__item--signin">Log-in</a> -->
+            <ul class="cd-main-nav__list js-signin-modal-trigger">
+
+              <li><a class="cd-main-nav__item cd-main-nav__item--signin" href="#0" data-signin="login">Sign in</a>
+              </li>
+              <!-- <li><a class="cd-main-nav__item cd-main-nav__item--signup" href="#0" data-signin="signup">Sign up</a>
+              </li> -->
+            </ul>
+
+
             <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
               class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
                 Video</span></a> -->
@@ -176,40 +182,41 @@
 
         <div class="section-header">
           <h2>About Us</h2>
-          <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
-            omnis tiledo stran delop</p>
+          <p>Scrap Collector (SC) is the India’s first App and Web based Online Portal for door to door Free Scrap
+            Collection and Recycling Service.</p>
         </div>
 
         <div class="row gy-4">
           <div class="col-lg-6">
             <h3>Voluptatem dignissimos provident quasi corporis</h3>
             <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-            <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia
-              recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-            <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel.
-              Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore
-              doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+            <p></p>
+            <p>Give away your recyclables used paper, plastic, metal, glass etc in a most environment friendly manner.
+              We have a centralized call center, and our mobile workforce uses tablet PCs for submitting their
+              transactions. This enables trust among common people. We also take waste collection bookings through text
+              messages.</p>
           </div>
           <div class="col-lg-6">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
+                WHAT'S DIFFERENT?
               </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <li><i class="bi bi-check-circle-fill"></i> Scrap collector brings transparency to the age-old ways of
+                  waste paper collection.
                 </li>
-                <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                </li>
-                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                  nulla pariatur.</li>
+                <li><i class="bi bi-check-circle-fill"></i> We have introduced the use of electronic weighing scales at
+                  the doorsteps of clients.
+                <li><i class="bi bi-check-circle-fill"></i>Our First Priority at scrap collector is Customer
+                  Satisfaction which we try to achieve by
+                  giving the Best Price, Accurate Weight (Electronic Weighting Machine) and 100% assurance of Recycling
+                  the Scrap Material Provided by our Customers.</li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                We purchase waste paper of all kinds at a fair price, including newspapers, notebooks, magazines,
+                steel,brass, glass, iron, plastic, etc.
+                Guarted to peek a scrap with in 24 hours.
+                We make use of technology in the whole process of collecting waste.
               </p>
 
               <div class="position-relative mt-4">
@@ -1197,6 +1204,120 @@
 
   <div id="preloader"></div>
 
+  <!-- testimonial -->
+
+  <div class="cd-signin-modal js-signin-modal"> <!-- this is the entire modal form, including the background -->
+    <div class="cd-signin-modal__container"> <!-- this is the container wrapper -->
+      <ul class="cd-signin-modal__switcher js-signin-modal-switcher js-signin-modal-trigger">
+        <li><a href="#0" data-signin="login" data-type="login">Sign in</a></li>
+        <li><a href="#0" data-signin="signup" data-type="signup">New account</a></li>
+      </ul>
+
+      <div class="cd-signin-modal__block js-signin-modal-block" data-type="login"> <!-- log in form -->
+        <form class="cd-signin-modal__form">
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace"
+              for="signin-email">E-mail</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="signin-email" type="email" placeholder="E-mail">
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace"
+              for="signin-password">Password</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="signin-password" type="text" placeholder="Password">
+            <a href="#0" class="cd-signin-modal__hide-password js-hide-password">Hide</a>
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <input type="checkbox" id="remember-me" checked class="cd-signin-modal__input ">
+            <label for="remember-me">Remember me</label>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <input class="cd-signin-modal__input cd-signin-modal__input--full-width" type="submit" value="Login">
+          </p>
+        </form>
+
+        <p class="cd-signin-modal__bottom-message js-signin-modal-trigger"><a href="#0" data-signin="reset">Forgot your
+            password?</a></p>
+      </div> <!-- cd-signin-modal__block -->
+
+      <div class="cd-signin-modal__block js-signin-modal-block" data-type="signup"> <!-- sign up form -->
+        <form class="cd-signin-modal__form">
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--username cd-signin-modal__label--image-replace"
+              for="signup-username">Username</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="signup-username" type="text" placeholder="Username">
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace"
+              for="signup-email">E-mail</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="signup-email" type="email" placeholder="E-mail">
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace"
+              for="signup-password">Password</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="signup-password" type="text" placeholder="Password">
+            <a href="#0" class="cd-signin-modal__hide-password js-hide-password">Hide</a>
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <input type="checkbox" id="accept-terms" class="cd-signin-modal__input ">
+            <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding"
+              type="submit" value="Create account">
+          </p>
+        </form>
+      </div> <!-- cd-signin-modal__block -->
+
+      <div class="cd-signin-modal__block js-signin-modal-block" data-type="reset"> <!-- reset password form -->
+        <p class="cd-signin-modal__message">Lost your password? Please enter your email address. You will
+          receive a link to create a new password.</p>
+
+        <form class="cd-signin-modal__form">
+          <p class="cd-signin-modal__fieldset">
+            <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace"
+              for="reset-email">E-mail</label>
+            <input
+              class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border"
+              id="reset-email" type="email" placeholder="E-mail">
+            <span class="cd-signin-modal__error">Error message here!</span>
+          </p>
+
+          <p class="cd-signin-modal__fieldset">
+            <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding"
+              type="submit" value="Reset password">
+          </p>
+        </form>
+
+        <p class="cd-signin-modal__bottom-message js-signin-modal-trigger"><a href="#0" data-signin="login">Back
+            to log-in</a></p>
+      </div> <!-- cd-signin-modal__block -->
+      <a href="#0" class="cd-signin-modal__close js-close">Close</a>
+    </div> <!-- cd-signin-modal__container -->
+  </div> <!-- cd-signin-modal -->
+
+  <!-- testimonial ends -->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>

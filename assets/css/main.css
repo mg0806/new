@@ -1906,10 +1906,13 @@ section {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-right: 15px;
+  background-color: #f85a40;
 }
 
 .hero .btn-get-started:hover {
   border-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
 }
 
 .hero .btn-watch-video {

@@ -1893,7 +1893,31 @@ section {
   margin-bottom: 30px;
 }
 
-.hero .btn-get-started {
+.btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  height: 50px;
+  background-color: #f85a40;
+  margin-top: 16px;
+  }
+
+.btn-get-started:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  color: white;
+}
+
+.cd-main-nav__item.cd-main-nav__item--signin {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 15px;
@@ -1908,9 +1932,11 @@ section {
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin-right: 15px;
   background-color: #f85a40;
+  margin-left:0px;
+
 }
 
-.hero .btn-get-started:hover {
+.cd-main-nav__item.cd-main-nav__item--signin:hover {
   border-color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
 }
@@ -2840,20 +2866,20 @@ Login/Signup modal window - by CodyHouse.co
     background: transparent;
   }
 
-  .cd-main-nav__item.cd-main-nav__item--signin,
-  .cd-main-nav__item.cd-main-nav__item--signup {
+  /* .cd-main-nav__item.cd-main-nav__item--signin, */
+  /* .cd-main-nav__item.cd-main-nav__item--signup {
     padding: .6em 1em;
     border-radius: 50em;
-  }
+  } */
 
-  .cd-main-nav__item.cd-main-nav__item--signin {
+  /* .cd-main-nav__item.cd-main-nav__item--signin {
     border: 1px solid rgba(255, 255, 255, 0.6);
-  }
+  } */
 
-  .cd-main-nav__item.cd-main-nav__item--signup {
-    background: #2f889a;
-  }
+  /* .cd-main-nav__item.cd-main-nav__item--signup {
+    background: #2f889a; */
 }
+
 
 /* -------------------------------- 
 
@@ -3007,6 +3033,7 @@ x sigin/signup popup
   margin: 0;
   padding: 0;
   border-radius: 0.25em;
+  
 }
 
 .cd-signin-modal__input.cd-signin-modal__input--full-width {
@@ -3038,7 +3065,7 @@ x sigin/signup popup
 .cd-signin-modal__input[type=submit] {
   padding: 16px 0;
   cursor: pointer;
-  background: #2f889a;
+  background:  #f85a40;
   color: #FFF;
   font-weight: bold;
   border: none;
@@ -3051,7 +3078,7 @@ x sigin/signup popup
 
 .cd-signin-modal__input[type=submit]:hover,
 .cd-signin-modal__input[type=submit]:focus {
-  background: #3599ae;
+  background: var(--color-primary);
   outline: none;
 }
 
@@ -3139,8 +3166,9 @@ x sigin/signup popup
 .cd-signin-modal__message {
   padding: 1.4em 1.4em 0;
   font-size: 1.4rem;
-  line-height: 1.4;
+  line-height: 1.7;
   text-align: center;
+  margin-top: 5px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -3153,14 +3181,16 @@ x sigin/signup popup
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: -30px;
+  bottom: -40px;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
+  margin-top: 5px;
 }
 
 .cd-signin-modal__bottom-message a {
   color: #FFF;
   text-decoration: underline;
+  margin-top: 5px;
 }
 
 .cd-signin-modal__close {

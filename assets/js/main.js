@@ -305,6 +305,9 @@ document.addEventListener('DOMContentLoaded', () => {
     ModalSignin.prototype.init = function () {
       var self = this;
       //open modal/switch form
+
+      // controls forget password and back to login buttons too 
+      
       for (var i = 0; i < this.triggers.length; i++) {
         (function (i) {
           self.triggers[i].addEventListener('click', function (event) {
@@ -338,14 +341,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       //IMPORTANT - REMOVE THIS - it's just to show/hide error messages in the demo
-      this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
-        event.preventDefault();
-        self.toggleError(document.getElementById('signin-email'), true);
-      });
-      this.blocks[1].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
-        event.preventDefault();
-        self.toggleError(document.getElementById('signup-username'), true);
-      });
+      //   this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+      //     event.preventDefault();
+      //     self.toggleError(document.getElementById('signin-email'), true);
+      //   });
+      //   this.blocks[1].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+      //     event.preventDefault();
+      //     self.toggleError(document.getElementById('signup-username'), true);
+      //   });
     };
 
     ModalSignin.prototype.togglePassword = function (target) {

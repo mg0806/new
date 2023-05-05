@@ -16,7 +16,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +26,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/otp.css">
+  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -40,7 +44,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <section id="topbar" class="topbar d-flex align-items-center">
+  <!-- <section id="topbar" class="topbar d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
@@ -52,29 +56,32 @@
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
-    </div>
-  </section><!-- End Top Bar -->
+    </div> -->
+  <!-- </section> -->
+  <!-- End Top Bar -->
 
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Impact<span>.</span></h1>
+        <img src="assets/img/logo.png" alt="">
+        <!-- <h1>Impact<span>.</span></h1> -->
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="#team">Team</a></li> -->
           <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
+                    class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -99,16 +106,18 @@
   </header><!-- End Header -->
   <!-- End Header -->
 
-  <main id="main">
+  <!-- <main id="main"> -->
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
+  <!-- ======= Breadcrumbs ======= -->
+  <!-- <div class="breadcrumbs">
       <div class="page-header d-flex align-items-center" style="background-image: url('');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <h2>Sample Inner Page</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut
+                a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum
+                dolorem.</p>
             </div>
           </div>
         </div>
@@ -121,9 +130,10 @@
           </ol>
         </div>
       </nav>
-    </div><!-- End Breadcrumbs -->
+    </div> -->
+  <!-- End Breadcrumbs -->
 
-    <section class="sample-page">
+  <!-- <section class="sample-page">
       <div class="container" data-aos="fade-up">
 
         <p>
@@ -131,9 +141,34 @@
         </p>
 
       </div>
-    </section>
+    </section> -->
 
-  </main><!-- End #main -->
+  <!-- </main> -->
+  <!-- End #main -->
+  <!-- request to pick up starts -->
+  <div class="container height-100 d-flex justify-content-center align-items-center"> 
+    <div class="position-relative">
+         <div class="card p-2 text-center"> <h6>Please enter the one time password <br> to verify your account</h6> 
+            <div> <span>A code has been sent to</span> <small>*******9897</small> 
+        </div> <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2">
+             <input class="m-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> 
+             <input class="m-2 text-center form-control rounded" type="text" id="second" maxlength="1" /> 
+             <input class="m-2 text-center form-control rounded" type="text" id="third" maxlength="1" />
+              <input class="m-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" /> 
+              <input class="m-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" />
+               <input class="m-2 text-center form-control rounded" type="text" id="sixth" maxlength="1" />
+             </div> <div class="mt-4"> <button class="btn btn-danger px-4 validate">Validate</button>
+             </div>
+             </div> 
+             <div class="card-2">
+                 <div class="content d-flex justify-content-center align-items-center"> <span>Didn't get the code</span> <a href="#" class="text-decoration-none ms-3">Resend(1/3)</a> 
+                </div> 
+            </div> 
+        </div>
+</div>
+
+
+  <!-- request to pick up ends -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -144,7 +179,8 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>Impact</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
+            donna mare fermentum iaculis eu non diam phasellus.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -206,7 +242,8 @@
   </footer><!-- End Footer -->
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
